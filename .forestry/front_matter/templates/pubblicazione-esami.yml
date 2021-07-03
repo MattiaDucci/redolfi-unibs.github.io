@@ -8,3 +8,5 @@ fields:
     maxSize: 64
   label: PDF
   description: Trascina il PDF che vuoi caricare
+pages:
+- _posts/xxxx.md
