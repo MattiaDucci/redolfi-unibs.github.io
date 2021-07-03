@@ -8,5 +8,14 @@ fields:
     maxSize: 64
   label: PDF
   description: Trascina il PDF che vuoi caricare
+- name: date
+  type: datetime
+  label: data di pubblicazione
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 pages:
 - _posts/xxxx.md
