@@ -1,4 +1,10 @@
 ---
 label: Pubblicazione esami
 hide_body: true
-fields: []
+fields:
+- name: pdf_url
+  type: file
+  config:
+    maxSize: 64
+  label: PDF
+  description: Trascina il PDF che vuoi caricare
