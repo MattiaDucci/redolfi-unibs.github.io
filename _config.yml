@@ -21,14 +21,4 @@ project:
   github: redolfi-unibs
 theme: jekyll-theme-architect
 
-defaults:
-  - scope:
-      path: "assets/esiti_eps"
-    values:
-      esito_eps: true
-  - scope:
-      path: "assets/esiti_pajc"
-    values:
-      esito_pajc: true
-
 

@@ -1,4 +1,4 @@
-{% assign pdfs_pajc = site.static_files | where: include.content_tag, true %}
+{% assign pdfs_pajc = site.static_files | where_exp: "item", "item.basename contains include.content_tag" %}
 {% for pajc_pdf in pdfs_pajc reversed %}
 {% assign splittedDate = pajc_pdf.basename | split: "-" %}
 {% assign month = splittedDate[3] | plus: 0  %}
